@@ -1,0 +1,70 @@
+{
+  "data": {
+    "Users": {
+      "uid_1": {
+        "name": "User 1",
+        "email": "user1@gmail.com",
+        "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz-77X11MoGE22xVjjPhbpW6lPj6I0SkcTQ&usqp=CAU",
+        "postsCreated": []
+      },
+      "uid_2": {
+        "name": "User 2",
+        "email": "user2@gmail.com",
+        "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz-77X11MoGE22xVjjPhbpW6lPj6I0SkcTQ&usqp=CAU",
+        "postsCreated": []
+      },
+      "uid_3": {
+        "name": "User 3",
+        "email": "user3@gmail.com",
+        "profilePic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyz-77X11MoGE22xVjjPhbpW6lPj6I0SkcTQ&usqp=CAU",
+        "postsCreated": []
+      }
+    },
+    "Posts": {
+      "pid_1": {
+        "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat. Nulla facilisi etiam dignissim diam. Enim lobortis scelerisque fermentum dui faucibus in. A diam sollicitudin tempor id eu. Sit amet volutpat consequat mauris nunc congue",
+        "mediaUrl": null,
+        "author_id": "uid_2",
+        "date": "27 Jan, 2022",
+        "category": "Politics",
+        "comments": {
+          "cid_1": {
+            "author_id": "uid_3",
+            "comment": "Tortor id aliquet lectus proin nibh nisl condimentum id. Massa id neque aliquam vestibulum morbi blandit cursus risus. Ipsum nunc aliquet bibendum enim. Felis bibendum ut tristique et egestas",
+            "date": "01 Feb, 2022",
+            "ratings": {
+              "uid_1": 3,
+              "uid_2": 5
+            }
+          },
+          "cid_2": {
+            "author_id": "uid_1",
+            "comment": "Tortor id aliquet lectus proin nibh nisl condimentum id. Massa id neque aliquam vestibulum morbi blandit cursus risus. Ipsum nunc aliquet bibendum enim. Felis bibendum ut tristique et egestas",
+            "date": "01 Feb, 2022",
+            "ratings": {
+              "uid_2": 2,
+              "uid_3": 4
+            }
+          }
+        }
+      }
+    },
+    "Categories": {
+      "politics": {
+        "uid_1": {
+          "cid_2": {
+            "uid_2": 2,
+            "uid_3": 4
+          }
+        },
+        "uid_3": {
+          "cid_1": {
+            "uid_1": 3,
+            "uid_2": 5
+          }
+        }
+      }
+    }
+  }
+}

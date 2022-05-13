@@ -1,0 +1,11 @@
+.clickable:hover {
+  cursor: pointer;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 3px 3px rgb(215, 228, 253);
+  transition: 0.15s;
+}
+
+.clickable a {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+.main-color {
+  background-color: #0aabd7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.postSelect option {
+  font-size: 1rem;
+}
+
+.postSelect:hover {
+  cursor: pointer;
+}
+
+.postSelect:focus-visible {
+  outline: none;
 }
