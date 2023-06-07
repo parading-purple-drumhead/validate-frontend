@@ -97,7 +97,7 @@ const Post = ({ post }) => {
       <div className="card shadow-sm mb-4" id={post.id}>
         <div className="card-body">
           <div className="row">
-            <div className="col-2 col-lg-1 col-md-1 col-sm-2 ps-md-1 pe-md-0 ps-lg-3 pe-lg-2 px-1">
+            <div className="col-2 col-lg-1 col-md-1 col-sm-2 ps-md-1 pe-md-0 ps-lg-3 pe-lg-3 px-1">
               <img
                 src={post.profilePic}
                 className="img-fluid"
