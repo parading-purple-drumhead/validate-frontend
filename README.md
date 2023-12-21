@@ -14,13 +14,13 @@ Validate is a web application that empowers users to submit information for veri
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/parading-purple-drumhead/validate-react.git
+   git clone https://github.com/parading-purple-drumhead/validate-frontend.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd validate-react
+   cd validate-frontend
    ```
 
 3. Install the dependencies:
